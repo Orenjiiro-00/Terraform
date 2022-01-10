@@ -16,7 +16,7 @@ module "security" {
 }
 
 module "eip" {
-	source = "../modules/ip_public"
+	source = "../modules/eip"
 	eip_name = "herve-eip"
 }
 
